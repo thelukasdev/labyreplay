@@ -15,3 +15,11 @@ core.saveStatsShareImage(playerName, serverName, true);
 ```
 
 Server rules matter: no automated clicks, movement, aim, feature-lock bypassing, or hidden uploads.
+
+Official LabyMod runtime wiring should use public LabyMod events first:
+
+- `ChatReceiveEvent` for chat-based highlight detection.
+- `GameTickEvent` only for lightweight scheduling.
+- Screenshot/render capture events for frame sampling where available.
+
+Avoid mixins unless there is no public event or API for the capture hook.
