@@ -1,10 +1,7 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        maven {
-            name = 'MinecraftForge'
-            url = 'https://maven.minecraftforge.net/'
-        }
+        mavenCentral()
     }
 }
 
@@ -13,3 +10,7 @@ plugins {
 }
 
 rootProject.name = 'labyreplay'
+
+include 'api'
+include 'core'
+include 'game-runner'
