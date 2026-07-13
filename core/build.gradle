@@ -1,0 +1,5 @@
+description = 'Platform-independent replay, highlight, and share-image logic.'
+
+dependencies {
+    api project(':api')
+}

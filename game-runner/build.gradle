@@ -1,0 +1,5 @@
+description = 'Thin game or loader integration layer for LabyReplay.'
+
+dependencies {
+    implementation project(':core')
+}
