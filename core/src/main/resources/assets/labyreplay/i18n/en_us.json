@@ -3,6 +3,21 @@
     "settings": {
       "enabled": {
         "name": "Enabled"
+      },
+      "autoSaveOnKill": {
+        "name": "Save kills"
+      },
+      "autoSaveOnBedBreak": {
+        "name": "Save bed breaks"
+      },
+      "autoSaveOnRoundWin": {
+        "name": "Save round wins"
+      },
+      "clipLengthSeconds": {
+        "name": "Clip length"
+      },
+      "targetFramesPerSecond": {
+        "name": "Capture FPS"
       }
     }
   }

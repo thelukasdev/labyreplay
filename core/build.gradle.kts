@@ -4,7 +4,7 @@ dependencies {
     labyProcessor()
     api(project(":api"))
 
-    // An example of how to add an external dependency that is used by the addon.
+    // Add external addon dependencies here when they are required.
     // addonMavenDependency("org.jeasy:easy-random:5.0.0")
 }
 
